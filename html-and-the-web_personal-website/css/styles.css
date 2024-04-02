@@ -1,0 +1,42 @@
+.Hobby {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  display: flex;
+
+  
+  align-items: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  width: 280px;
+  align-content: center;
+  align-items: center;
+}
+
+.Hobby0 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.Hobby li {
+  border: solid 2px;
+  border-color: blue;
+  background-color: green;
+  box-shadow: 5px 5px 5px 5px;
+  width: 100px;
+  height: 40px;
+  border-radius: 60%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+body {
+    background-color: gray;
+    
+}

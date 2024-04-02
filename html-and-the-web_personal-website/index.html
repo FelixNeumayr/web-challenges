@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="MyHomePage" content="width=device-width, initial-scale=1.0" />
+    <title>Title of the document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My first Homepage</h1>
+    </header>
+
+    <main class="Hobby2">
+      <h3>Felix Neumayr</h3>
+      <h3>Contact</h3>
+      <h3>Biography</h3>
+
+      <img
+        alt="ein bild"
+        width="500"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/800px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg"
+      />
+      <br>Das ist ein random Bild
+      <p class="Hobby0"> Meine Hobbys:</p>
+      <ul class="Hobby">
+        
+        <li>Hobby</li>
+        <li>Hobby</li>
+        <li>Hobby</li>
+        <li>Hobby</li>
+        <li>Hobby</li>
+      </ul>
+    </main>
+<br>
+    <section id="SocialMedia"><br>
+      <section>Social Media</section><br>
+      
+      <a href="www.x.com">
+        <img
+          width="110"
+          src="https://pbs.twimg.com/profile_images/1683364783033139200/q256m4uQ_400x400.jpg"
+        />
+      </a>
+      <a href="www.instagram.com">
+        <img
+          width="110"
+          src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
+        />
+      </a>
+    </section>
+
+  
+<p>
+    <table id="Lebenslauf">
+      <th>Jahr</th>
+      <th>Berufserfahrung</th>
+      <tr></tr>
+
+      <td>2008</td>
+      <td>Schule</td>
+      <tr>
+        <td>2012</td>
+        <td>Ausbildung</td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>Job#1</td>
+      </tr>
+
+      <tr>
+        <td>2018</td>
+        <td>Job#2</td>
+      </tr>
+    </table>
+  </p>
+
+    <footer>
+      <p>Author: Felix Neumayr</p>
+    </footer>
+
+    <h3>Wie fandest du meine Homepage?</h3>
+    <form id="bewertung">
+      <input id="bewertung" />
+      <button type="button" onclick="dankeDir()">Bewerten</button>
+    </form>
+    <p id="dankeNachricht" style="display: none">Danke dir!</p>
+
+    <script>
+      function dankeDir() {
+        var bewertung = document.getElementById("bewertung").value;
+        dankeNachricht.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
